@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestAssured Test Suite" duration-ms="22990" started-at="2022-08-05T14:13:58Z" finished-at="2022-08-05T14:14:21Z">
+    <groups>
+    </groups>
+    <test name="RestAssured Automation" duration-ms="22990" started-at="2022-08-05T14:13:58Z" finished-at="2022-08-05T14:14:21Z">
+      <class name="RestAssuredAPI.TC002_POST_Request">
+        <test-method status="PASS" signature="createBook()[pri:0, instance:RestAssuredAPI.TC002_POST_Request@5b275dab]" name="createBook" duration-ms="3450" started-at="2022-08-05T14:14:10Z" finished-at="2022-08-05T14:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBook -->
+      </class> <!-- RestAssuredAPI.TC002_POST_Request -->
+      <class name="RestAssuredAPI.TC001_Get_Request">
+        <test-method status="PASS" signature="getBookingId()[pri:0, instance:RestAssuredAPI.TC001_Get_Request@523884b2]" name="getBookingId" duration-ms="4729" started-at="2022-08-05T14:13:58Z" finished-at="2022-08-05T14:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingId -->
+      </class> <!-- RestAssuredAPI.TC001_Get_Request -->
+      <class name="RestAssuredAPI.TC004_Get_Request_GetAllHeaders">
+        <test-method status="PASS" signature="getAllHeaders()[pri:0, instance:RestAssuredAPI.TC004_Get_Request_GetAllHeaders@29774679]" name="getAllHeaders" duration-ms="1227" started-at="2022-08-05T14:14:14Z" finished-at="2022-08-05T14:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllHeaders -->
+      </class> <!-- RestAssuredAPI.TC004_Get_Request_GetAllHeaders -->
+      <class name="RestAssuredAPI.TC005_Get_Request_ValidateResponseFields">
+        <test-method status="PASS" signature="validateResponsefields()[pri:0, instance:RestAssuredAPI.TC005_Get_Request_ValidateResponseFields@3ffc5af1]" name="validateResponsefields" duration-ms="1360" started-at="2022-08-05T14:14:16Z" finished-at="2022-08-05T14:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponsefields -->
+      </class> <!-- RestAssuredAPI.TC005_Get_Request_ValidateResponseFields -->
+      <class name="RestAssuredAPI.TC003_Get_Request_HeaderValidation">
+        <test-method status="PASS" signature="validateHeader()[pri:0, instance:RestAssuredAPI.TC003_Get_Request_HeaderValidation@61832929]" name="validateHeader" duration-ms="1290" started-at="2022-08-05T14:14:13Z" finished-at="2022-08-05T14:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+      </class> <!-- RestAssuredAPI.TC003_Get_Request_HeaderValidation -->
+      <class name="RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider">
+        <test-method status="PASS" signature="createDatausingDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider@5e5792a0]" name="createDatausingDataProvider" duration-ms="1200" started-at="2022-08-05T14:14:17Z" data-provider="newbooksdataprovider" finished-at="2022-08-05T14:14:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[practice Book10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy data10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2022-08-02T09:35:28.086Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDatausingDataProvider -->
+        <test-method status="PASS" signature="createDatausingDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider@5e5792a0]" name="createDatausingDataProvider" duration-ms="1330" started-at="2022-08-05T14:14:18Z" data-provider="newbooksdataprovider" finished-at="2022-08-05T14:14:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book 11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[practice Book11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy data11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2022-08-02T10:35:28.086Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDatausingDataProvider -->
+        <test-method status="PASS" signature="createDatausingDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider@5e5792a0]" name="createDatausingDataProvider" duration-ms="1281" started-at="2022-08-05T14:14:19Z" data-provider="newbooksdataprovider" finished-at="2022-08-05T14:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book 12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[practice Book12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy data12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2022-08-02T11:35:28.086Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDatausingDataProvider -->
+      </class> <!-- RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider -->
+      <class name="RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel">
+        <test-method status="PASS" signature="createnewBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel@26653222]" name="createnewBook" duration-ms="1611" started-at="2022-08-05T14:14:05Z" data-provider="readbookdatausingexcel" finished-at="2022-08-05T14:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[practice Book 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy data10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2022-08-02T09:35:28.086Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewBook -->
+        <test-method status="PASS" signature="createnewBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel@26653222]" name="createnewBook" duration-ms="1318" started-at="2022-08-05T14:14:07Z" data-provider="readbookdatausingexcel" finished-at="2022-08-05T14:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book 11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[practice Book 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy data11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2022-08-02T10:35:28.086Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewBook -->
+        <test-method status="PASS" signature="createnewBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel@26653222]" name="createnewBook" duration-ms="1606" started-at="2022-08-05T14:14:08Z" data-provider="readbookdatausingexcel" finished-at="2022-08-05T14:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book 12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[practice Book 12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy data12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2022-08-02T11:35:28.086Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewBook -->
+      </class> <!-- RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel -->
+    </test> <!-- RestAssured Automation -->
+  </suite> <!-- RestAssured Test Suite -->
+</testng-results>

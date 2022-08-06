@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  RestAssured Automation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RestAssured Automation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 05 19:43:58 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22990 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='RestAssuredAPI.TC002_POST_Request.createBook()'><b>createBook</b><br>Test class: RestAssuredAPI.TC002_POST_Request</td>
+<td></td>
+<td>3</td>
+<td>RestAssuredAPI.TC002_POST_Request@5b275dab</td></tr>
+<tr>
+<td title='RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider.createDatausingDataProvider()'><b>createDatausingDataProvider</b><br>Test class: RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider<br>Parameters: Book 10, practice Book10, Dummy data10, 2022-08-02T09:35:28.086Z</td>
+<td></td>
+<td>1</td>
+<td>RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider@5e5792a0</td></tr>
+<tr>
+<td title='RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider.createDatausingDataProvider()'><b>createDatausingDataProvider</b><br>Test class: RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider<br>Parameters: Book 11, practice Book11, Dummy data11, 2022-08-02T10:35:28.086Z</td>
+<td></td>
+<td>1</td>
+<td>RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider@5e5792a0</td></tr>
+<tr>
+<td title='RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider.createDatausingDataProvider()'><b>createDatausingDataProvider</b><br>Test class: RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider<br>Parameters: Book 12, practice Book12, Dummy data12, 2022-08-02T11:35:28.086Z</td>
+<td></td>
+<td>1</td>
+<td>RestAssuredDataDrivenTesting.TC001_Post_Request_DataProvider@5e5792a0</td></tr>
+<tr>
+<td title='RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel.createnewBook()'><b>createnewBook</b><br>Test class: RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel<br>Parameters: Book 10, practice Book 10, 100, Dummy data10, 2022-08-02T09:35:28.086Z</td>
+<td></td>
+<td>1</td>
+<td>RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel@26653222</td></tr>
+<tr>
+<td title='RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel.createnewBook()'><b>createnewBook</b><br>Test class: RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel<br>Parameters: Book 11, practice Book 11, 200, Dummy data11, 2022-08-02T10:35:28.086Z</td>
+<td></td>
+<td>1</td>
+<td>RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel@26653222</td></tr>
+<tr>
+<td title='RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel.createnewBook()'><b>createnewBook</b><br>Test class: RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel<br>Parameters: Book 12, practice Book 12, 300, Dummy data12, 2022-08-02T11:35:28.086Z</td>
+<td></td>
+<td>1</td>
+<td>RestAssuredDataDrivenTesting.TC001_POST_Request_ReadDataFromExcel@26653222</td></tr>
+<tr>
+<td title='RestAssuredAPI.TC004_Get_Request_GetAllHeaders.getAllHeaders()'><b>getAllHeaders</b><br>Test class: RestAssuredAPI.TC004_Get_Request_GetAllHeaders</td>
+<td></td>
+<td>1</td>
+<td>RestAssuredAPI.TC004_Get_Request_GetAllHeaders@29774679</td></tr>
+<tr>
+<td title='RestAssuredAPI.TC001_Get_Request.getBookingId()'><b>getBookingId</b><br>Test class: RestAssuredAPI.TC001_Get_Request</td>
+<td></td>
+<td>4</td>
+<td>RestAssuredAPI.TC001_Get_Request@523884b2</td></tr>
+<tr>
+<td title='RestAssuredAPI.TC003_Get_Request_HeaderValidation.validateHeader()'><b>validateHeader</b><br>Test class: RestAssuredAPI.TC003_Get_Request_HeaderValidation</td>
+<td></td>
+<td>1</td>
+<td>RestAssuredAPI.TC003_Get_Request_HeaderValidation@61832929</td></tr>
+<tr>
+<td title='RestAssuredAPI.TC005_Get_Request_ValidateResponseFields.validateResponsefields()'><b>validateResponsefields</b><br>Test class: RestAssuredAPI.TC005_Get_Request_ValidateResponseFields</td>
+<td></td>
+<td>1</td>
+<td>RestAssuredAPI.TC005_Get_Request_ValidateResponseFields@3ffc5af1</td></tr>
+</table><p>
+</body>
+</html>

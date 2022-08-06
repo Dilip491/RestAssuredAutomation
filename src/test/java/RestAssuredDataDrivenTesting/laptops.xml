@@ -1,0 +1,17 @@
+<laptops>
+   <laptop name="Dell">
+       <price value="50000"/>
+       <ram value="8GB"/>
+       <ssd value="250GB"/>
+   </laptop>
+   <laptop name="Lenovo">
+       <price value="38000"/>
+       <ram value="16GB"/>
+       <hardDrive value="500GB"/>
+   </laptop>
+   <laptop name="Apple">
+       <price value="80000"/>
+       <ram value="16GB"/>
+       <hardDrive value="250GB"/>
+   </laptop>
+</laptops>
