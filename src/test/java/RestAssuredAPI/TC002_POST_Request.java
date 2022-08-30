@@ -14,9 +14,10 @@ public class TC002_POST_Request {
     @Test
     void createBook(){
 
-      RestAssured.baseURI="https://fakerestapi.azurewebsites.net/api/v1/";
+
 
       RequestSpecification httprequest=RestAssured.given();
+      httprequest.baseUri("https://fakerestapi.azurewebsites.net/api/v1/");
 
       JSONObject requestparams=new JSONObject();
         requestparams.put("id","7");
